@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e141b">
+<title>Ovens 'N' Platters by Itika Singh | Pure vegetarian café, Rajkot and Jamnagar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--k:#0e141b;--k2:#151d27;--k3:#25303d;--br:#e3a857;--br2:#f7d9a0;--iv:#f4ece0;--mu:#a9b0b8;--serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",system-ui,sans-serif;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--k);color:var(--iv);font:400 16px/1.7 var(--sans);padding-bottom:calc(76px + env(safe-area-inset-bottom,0px));overflow-x:hidden}
+a{color:inherit}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02;margin:0}h2{font-size:clamp(2.4rem,9vw,4.2rem);margin-bottom:1rem}h3{font-size:1.7rem}
+p{margin:0 0 1rem;max-width:56ch;color:#cdd3d9}:focus-visible{outline:2px solid var(--br);outline-offset:3px}
+.s{padding:4.5rem 1.3rem}.w{max-width:1180px;margin:0 auto}
+.eb{font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;color:var(--br);margin-bottom:1rem}
+i.g,em.g{font-style:italic;color:var(--br)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:50px;padding:0 1.6rem;border:1px solid var(--br);color:var(--br);background:none;border-radius:99px;font:600 .72rem var(--sans);letter-spacing:.16em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background .3s,color .3s}
+.btn:hover,.btn.f{background:var(--br);color:var(--k)}.btn.f:hover{background:var(--br2)}.row{display:flex;gap:.7rem;flex-wrap:wrap}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+/* media */
+.m{position:relative;overflow:hidden;background:var(--k2)}.m::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(227,168,87,.3),transparent 55%)}.m img,.m video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.7rem 1.3rem;background:rgba(14,20,27,.9);backdrop-filter:blur(14px);border-bottom:1px solid rgba(227,168,87,.2)}
+.logo{font:500 1.1rem var(--serif);letter-spacing:.18em;text-decoration:none;text-transform:uppercase;line-height:1.1}.logo small{display:block;font:400 .52rem var(--sans);letter-spacing:.32em;color:var(--br)}
+.dn{display:none;gap:1.4rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}.dn a{text-decoration:none;color:var(--mu)}.dn a:hover{color:var(--br)}
+.pill{display:flex;align-items:center;gap:.55rem;min-height:44px;padding:0 1rem;border:1px solid var(--k3);border-radius:99px;background:var(--k2);color:var(--iv);font:500 .78rem var(--sans);cursor:pointer}.dot{width:8px;height:8px;border-radius:50%;background:#6fcf97;flex:none}.dot.c{background:#e08a6e}
+#bm{position:fixed;top:calc(62px + env(safe-area-inset-top,0px));right:1rem;z-index:55;background:var(--k2);border:1px solid var(--k3);border-radius:16px;padding:.5rem;display:none;min-width:240px}#bm.on{display:block}
+#bm button{display:block;width:100%;text-align:left;background:none;border:0;color:var(--iv);padding:.8rem 1rem;border-radius:10px;font:500 .9rem var(--sans);cursor:pointer}#bm button:hover,#bm button[aria-pressed=true]{background:var(--k3)}#bm small{display:block;color:var(--mu);font-size:.74rem}
+/* hero */
+.hero{display:grid;gap:2.2rem;padding-top:2.4rem}.hero h1{font-size:clamp(3.4rem,15vw,8rem);margin:.4rem 0 1.2rem}
+.frame{position:relative;width:min(100%,360px);aspect-ratio:3/4.4;margin:0 auto;border-radius:999px 999px 22px 22px;outline:1px solid rgba(227,168,87,.5);outline-offset:10px}.frame .m{position:absolute;inset:0;border-radius:inherit}
+.tag{position:absolute;z-index:3;background:rgba(14,20,27,.85);backdrop-filter:blur(8px);border:1px solid rgba(227,168,87,.4);border-radius:99px;padding:.35rem .9rem;font-size:.7rem;letter-spacing:.1em;color:var(--br2)}
+.qa{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin-top:1.6rem}.qa a{display:grid;gap:.1rem;padding:1rem;border:1px solid var(--k3);border-radius:16px;background:var(--k2);text-decoration:none;transition:border-color .3s}.qa a:hover{border-color:var(--br)}.qa b{font:400 1.5rem var(--serif)}.qa span{font-size:.72rem;color:var(--mu)}
+/* rail */
+.alt{background:var(--k2)}.rail{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;margin:1.6rem -1.3rem 0;padding:0 1.3rem 1rem;scrollbar-width:none}.rail>button{flex:0 0 62%;max-width:240px;aspect-ratio:9/16;scroll-snap-align:start;border:0;padding:0;border-radius:18px;cursor:pointer;color:var(--iv);font:inherit;position:relative}.rail .m{position:absolute;inset:0;border-radius:18px}
+.rail span{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:2.5rem 1rem 1rem;text-align:left;background:linear-gradient(transparent,rgba(14,20,27,.88));border-radius:0 0 18px 18px;font:400 1.35rem/1.1 var(--serif)}
+/* menu */
+.tb{position:sticky;top:calc(60px + env(safe-area-inset-top,0px));z-index:20;background:var(--k);padding:.8rem 0;margin:1rem 0;border-bottom:1px solid var(--k3)}.alt .tb{background:var(--k2)}
+input,select,textarea{font:400 1rem var(--sans);color:var(--iv);background:var(--k);border:1px solid var(--k3);border-radius:12px;padding:.8rem 1rem;width:100%;min-height:48px}.tb input{background:var(--k2)}
+.chips{display:flex;gap:.5rem;overflow-x:auto;margin-top:.7rem;scrollbar-width:none;align-items:center}.chips button,.sw{flex:none;min-height:42px;padding:0 1.1rem;border:1px solid var(--k3);border-radius:99px;background:none;color:var(--iv);font:500 .8rem var(--sans);cursor:pointer;transition:.25s}.chips button[aria-pressed=true]{background:var(--br);border-color:var(--br);color:var(--k)}
+.sw.on{border-color:var(--br);color:var(--br)}
+.mg{display:grid;gap:.7rem}.dc{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:1.1rem 1.2rem;border:1px solid var(--k3);border-radius:16px;transition:border-color .3s}.dc:hover{border-color:var(--br)}.dc h3{font-size:1.6rem}.dc p{margin:.2rem 0 0;font-size:.86rem;color:var(--mu)}.dc small{font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--br);white-space:nowrap;border:1px solid rgba(227,168,87,.4);border-radius:99px;padding:.25rem .7rem}.dc.hl{border-color:var(--br);background:rgba(227,168,87,.08)}
+#pk{margin:1rem 0;padding:1.2rem;border:1px dashed var(--br);border-radius:16px;display:none}#pk.on{display:block}
+/* bento */
+.bg{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:150px;gap:.6rem;margin-top:1.6rem}.bg button{border:0;padding:0;border-radius:16px;cursor:pointer;position:relative;overflow:hidden}.bg .m{position:absolute;inset:0}.bg img{transition:transform .8s}.bg button:hover img{transform:scale(1.05)}.t2{grid-row:span 2}.w2{grid-column:span 2}
+/* story, visit */
+.two{display:grid;gap:2.5rem}.st{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.6rem 0}.st b{display:block;font:400 2.6rem var(--serif);color:var(--br);line-height:1}.st span{font-size:.74rem;color:var(--mu)}
+.vcs{display:grid;gap:1rem;margin-top:1.6rem}.vc{border:1px solid var(--k3);border-radius:22px;padding:1.5rem;background:var(--k2)}.vc.sel{border-color:var(--br)}.vc .stt{display:flex;align-items:center;gap:.5rem;font-size:.78rem;color:var(--mu);margin:.3rem 0 1rem}
+dl{display:grid;grid-template-columns:5.5rem 1fr;gap:.7rem 1rem;margin:0 0 1.4rem}dt{color:var(--mu);font-size:.8rem}dd{margin:0;font-size:.94rem}
+/* reserve */
+.opt{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;margin:1.4rem 0}.opt button{min-height:84px;font:600 .6rem var(--sans);letter-spacing:.12em;text-transform:uppercase;background:var(--k2);color:var(--mu);border:1px solid var(--k3);border-radius:16px;cursor:pointer;display:grid;place-content:center;gap:.2rem}.opt b{font:400 clamp(1.1rem,5vw,1.5rem) var(--serif);letter-spacing:0;text-transform:none;color:var(--iv)}.opt button[aria-pressed=true]{border-color:var(--br);color:var(--br)}
+.pn{background:var(--k2);border:1px solid rgba(227,168,87,.35);border-radius:22px;padding:1.4rem}form{display:grid;gap:1.1rem}label,.lb{display:grid;gap:.4rem;font-size:.8rem;color:var(--mu)}#fm{color:var(--br);font-size:.9rem;margin:0;min-height:1.2rem}
+.stp{display:flex;align-items:center;gap:1rem}.stp button{width:46px;height:46px;border-radius:50%;border:1px solid var(--br);background:none;color:var(--br);font-size:1.4rem;cursor:pointer}.stp b{font:400 2rem var(--serif);min-width:2ch;text-align:center;color:var(--iv)}
+/* dock + viewer */
+#dock{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr 74px 1fr 1fr;align-items:center;background:rgba(14,20,27,.95);backdrop-filter:blur(14px);border-top:1px solid rgba(227,168,87,.2);padding-bottom:env(safe-area-inset-bottom,0px)}
+#dock a{display:grid;place-items:center;min-height:60px;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mu);text-decoration:none}#dock a.on{color:var(--br)}
+#dock a.cl{width:58px;height:58px;margin:-22px auto 0;border-radius:50%;background:var(--br);color:var(--k);font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.45)}
+#vw{position:fixed;inset:0;z-index:90;background:#070a0e;display:none;place-items:center}#vw.on{display:grid}#vm{position:relative;width:min(100vw,460px);height:100svh;background:#000}#vm>*{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+#vw button{position:absolute;z-index:3;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.5);color:#fff;font-size:1.4rem;cursor:pointer}#vx{top:calc(12px + env(safe-area-inset-top,0px));right:12px}#vp{left:10px;top:50%}#vn{right:10px;top:50%}#vc{position:absolute;z-index:3;top:calc(22px + env(safe-area-inset-top,0px));left:16px;color:#fff;font-size:.8rem;letter-spacing:.2em}
+footer{padding:2.5rem 1.3rem;border-top:1px solid var(--k3);color:var(--mu);font-size:.8rem;text-align:center}
+@media(min-width:860px){body{padding-bottom:0}#dock{display:none}.dn{display:flex}.s{padding:7rem 4rem}.hero{grid-template-columns:1.1fr .9fr;align-items:center;gap:5rem}.rail>button{flex-basis:240px}.mg{grid-template-columns:1fr 1fr}.bg{grid-template-columns:repeat(4,1fr);grid-auto-rows:210px}.two{grid-template-columns:1fr 1fr;gap:6rem;align-items:center}.vcs{grid-template-columns:1fr 1fr}.tb{top:60px}.qa{grid-template-columns:repeat(4,1fr)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}.rv{opacity:1;transform:none}}
+</style></head><body>
+<header><a class="logo" href="#top">Ovens 'N' Platters<small>By Itika Singh</small></a>
+ <nav class="dn"><a href="#menu">Menu</a><a href="#reels">Reels</a><a href="#story">Story</a><a href="#visit">Visit</a><a href="#reserve">Reserve</a></nav>
+ <button class="pill" id="bp" aria-haspopup="true"><i class="dot" id="bd"></i><span id="bt"></span> &#9662;</button></header>
+<div id="bm" role="menu"></div>
+
+<main id="top">
+<section class="s hero"><div><div class="eb">100% vegetarian &nbsp;/&nbsp; Rajkot and Jamnagar</div><h1>Ovens 'N' <em class="g">Platters.</em></h1><p style="max-width:34ch">Where passion, flavours and empowerment unite. A café by Itika Singh.</p><p id="hs" style="color:var(--br2);font-size:.9rem"></p>
+ <div class="qa"><a id="qc" href="#"><b>Call</b><span id="qcs"></span></a><a id="qw" href="#" target="_blank" rel="noopener"><b>WhatsApp</b><span>Quick chat</span></a><a id="qd" href="#" target="_blank" rel="noopener"><b>Directions</b><span>Google Maps</span></a><a href="#reserve"><b>Reserve</b><span>Book a table</span></a></div></div>
+ <div class="frame"><div class="m" data-k="v1" data-poster="p1"></div><span class="tag" style="left:-8px;top:12%">Pure vegetarian</span><span class="tag" style="right:-8px;bottom:14%">Jain-friendly options</span></div></section>
+
+<section class="s alt" id="reels"><div class="w"><div class="eb rv">On the table</div><h2 class="rv">Watch it <i class="g">made.</i></h2><p class="rv">Tap any reel to watch it full screen.</p><div class="rail" id="rail"></div></div></section>
+
+<section class="s" id="menu"><div class="w"><div class="eb rv">The menu</div><h2 class="rv">Find your <i class="g">plate.</i></h2><p class="rv">Search, filter, or let us choose. Jain-friendly variants are built into the core menu.</p>
+ <div class="tb"><input id="q" type="search" placeholder="Search dishes" aria-label="Search dishes"><div class="chips" id="cf"></div></div>
+ <div id="pk"></div><p id="cn" style="font-size:.8rem;color:var(--mu)"></p><div class="mg" id="mg"></div></div></section>
+
+<section class="s alt"><div class="w"><div class="eb rv">Inside</div><h2 class="rv">A look <i class="g">around.</i></h2><div class="bg" id="bg"></div></div></section>
+
+<section class="s" id="story"><div class="w two"><div><div class="eb rv">Our story</div><h2 class="rv">Vegetarian, and proudly <i class="g">hers.</i></h2><p class="rv">Ovens 'N' Platters was founded, owned and curated by Itika Singh. The flagship in Rajkot is celebrated as the city's first women-run café, a space where passion, flavours and empowerment come together.</p>
+ <div class="st rv"><div><b>2</b><span>branches</span></div><div><b>100%</b><span>vegetarian</span></div><div><b>7</b><span>days a week</span></div></div><div class="row rv"><a class="btn" href="https://instagram.com/ovensnplatters" target="_blank" rel="noopener">Instagram</a><button class="btn" id="sb">Share</button></div></div>
+ <div class="frame rv" style="border-radius:22px;aspect-ratio:4/5"><div class="m" data-k="p8"></div></div></div></section>
+
+<section class="s alt" id="visit"><div class="w"><div class="eb rv">Visit us</div><h2 class="rv">Two cities, <i class="g">one table.</i></h2><div class="vcs" id="vcs"></div></div></section>
+
+<section class="s" id="reserve"><div class="w two"><div><div class="eb rv">Reservations</div><h2 class="rv">Reserve a <i class="g">table.</i></h2><p class="rv">Sunday evenings are our busiest time. Weekday afternoons are the quietest. Choose a branch and how you would like to book.</p><div class="chips rv" id="rb"></div></div>
+ <div><div class="opt" id="opt"><button data-m="call"><b>Call</b>Speak to us</button><button data-m="wa"><b>WhatsApp</b>Quick chat</button><button data-m="mail"><b>Email</b>Fill a form</button></div><div class="pn" id="pn"></div></div></div></section>
+</main>
+<footer>Ovens 'N' Platters by Itika Singh. Pure vegetarian. Rajkot and Jamnagar, Gujarat.</footer>
+
+<nav id="dock"><a href="#menu" data-s="menu">Menu</a><a href="#reels" data-s="reels">Reels</a><a class="cl" id="dc" href="#">Call</a><a href="#visit" data-s="visit">Visit</a><a href="#reserve" data-s="reserve">Reserve</a></nav>
+<div id="vw"><div id="vm"></div><span id="vc"></span><button id="vx" aria-label="Close">&times;</button><button id="vp" aria-label="Previous">&lsaquo;</button><button id="vn" aria-label="Next">&rsaquo;</button></div>
+
+<script>
+const EMAIL=""; // add the café's reservation email address here
+const A={}; // filled only in the single-file preview; the deployed site loads media/ files
+const B={rajkot:{n:"Rajkot",tel:"918511210816",d:"+91 85112 10816",addr:"Mokaji Circle, Jai Bhimnagar, Nana Mava, Rajkot, Gujarat 360005. Main Road, opposite Raghvendra Sweet.",hrs:["Monday: 3:00 PM to 11:00 PM","Tuesday to Sunday: 12:00 PM to 11:00 PM"],open:d=>d===1?15:12,vibe:"Casual, cozy and trendy, with comfortable seating. Scheduled live music and performances.",svc:"Dine-in, takeout, curbside pickup and delivery",park:"Free parking lot and street parking, plus valet",fam:"Kids' menu and high chairs",map:"https://maps.google.com/?q=Ovens+N+Platters+Mokaji+Circle+Rajkot"},
+ jamnagar:{n:"Jamnagar",tel:"918799337306",d:"+91 87993 37306",addr:"Park Colony Road, opposite Joggers Park Road, Swastik Society, Park Colony, Jamnagar, Gujarat 361008.",hrs:["Every day: 2:00 PM to 11:00 PM"],open:()=>14,vibe:"A cozy interior with an indoor fireplace, a private dining room and rooftop seating. TV screens for live sports.",svc:"Dine-in and takeout",park:"Free parking lot and street parking",fam:"Welcoming for families and groups",map:"https://maps.google.com/?q=Ovens+N+Platters+Park+Colony+Jamnagar"}};
+let br="rajkot",mode="call",tm=null;const S={date:0,time:null,g:2};
+const $=i=>document.getElementById(i),Q=(s,r=document)=>[...r.querySelectorAll(s)];
+const fh=h=>h===12?"12 PM":h>12?(h-12)+" PM":h+" AM";
+function status(k){const x=B[k],n=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Kolkata"})),d=n.getDay(),h=n.getHours()+n.getMinutes()/60,o=x.open(d);
+ if(h>=o&&h<23)return{o:true,t:"Open now, until 11 PM"};if(h<o)return{o:false,t:"Opens today at "+fh(o)};return{o:false,t:"Opens tomorrow at "+fh(x.open((d+1)%7))}}
+// media
+function mk(m){const k=m.dataset.k,v=k[0]==="v",e=document.createElement(v?"video":"img");e.src=A[k]||"media/"+k+(v?".mp4":".jpg");
+ if(v){["muted","loop","autoplay","playsinline"].forEach(a=>e.setAttribute(a,""));e.muted=e.loop=e.autoplay=e.playsInline=true;e.preload="metadata";if(m.dataset.poster)e.poster=A[m.dataset.poster]||"media/"+m.dataset.poster+".jpg"}else{e.alt="Ovens 'N' Platters";e.decoding="async";e.loading="lazy"}
+ e.onerror=()=>{if(!e.poster)e.remove()};return e}
+const vo=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting?e.target.play().catch(()=>{}):e.target.pause()));
+function fill(r){Q("[data-k]",r).forEach(m=>{if(!m.querySelector("img,video")){const e=mk(m);m.appendChild(e);if(e.tagName==="VIDEO")vo.observe(e)}})}
+const REELS=[["v1","A tour of the café","p1"],["v2","Evening at the door","p2"],["v3","Fresh, with a crunch","p7"],["v4","The feel of the place","p5"],["v5","Straight from the oven","p6"]],PH=["p2","p4","p3","p5","p6","p7","p1","p8"];
+$("rail").innerHTML=REELS.map((r,i)=>`<button data-i="${i}" aria-label="Play ${r[1]}"><div class="m" data-k="${r[0]}" data-poster="${r[2]}"></div><span>${r[1]}</span></button>`).join("");
+$("bg").innerHTML=PH.map((k,i)=>`<button data-i="${i}" class="${[0,3,6].includes(i)?"t2":""} ${i===4?"w2":""}" aria-label="Open photo"><div class="m" data-k="${k}"></div></button>`).join("");
+// viewer
+let vl=[],vi=0;function vshow(){const k=vl[vi],e=mk({dataset:{k}});if(k[0]==="v"){e.loop=true;e.controls=false}$("vm").replaceChildren(e);$("vc").textContent=(vi+1)+" / "+vl.length;if(e.play)e.play().catch(()=>{})}
+function vopen(l,i){vl=l;vi=i;$("vw").classList.add("on");vshow()}const vclose=()=>{$("vw").classList.remove("on");$("vm").innerHTML=""};
+$("rail").onclick=e=>{const b=e.target.closest("button");if(b)vopen(REELS.map(r=>r[0]),+b.dataset.i)};$("bg").onclick=e=>{const b=e.target.closest("button");if(b)vopen(PH,+b.dataset.i)};
+$("vx").onclick=vclose;$("vn").onclick=()=>{vi=(vi+1)%vl.length;vshow()};$("vp").onclick=()=>{vi=(vi-1+vl.length)%vl.length;vshow()};
+addEventListener("keydown",e=>{if(!$("vw").classList.contains("on"))return;if(e.key==="Escape")vclose();if(e.key==="ArrowRight")$("vn").click();if(e.key==="ArrowLeft")$("vp").click()});
+// menu explorer
+const J="Jain-friendly",MENU=[["Platters","Grilled Paneer Rice Platter","Grilled paneer chunks with herbed sautéed vegetables over rice.","Top rated"],["Platters","Akuri Paneer Platter","","Signature"],["Platters","Magic Mushroom Platter","","Signature"],
+["Toasts and wraps","Jalapeno and Olive Toast","Oven-baked.",J],["Toasts and wraps","Cheese Chilli Toast","Oven-baked.",J],["Toasts and wraps","Spicy Paneer Wrap","",J],["Toasts and wraps","Lebanese Wrap","",""],["Toasts and wraps","Aloo Tikki Wrap","",""],["Toasts and wraps","Sandwiches and stuffed burgers","",""],
+["Pizza and pasta","Thin-crust artisan pizzas","",""],["Pizza and pasta","Pastas","Red and white sauce.",""],
+["Mexican","Enchiladas","",""],["Mexican","Burrito Bowl","",""],["Mexican","Burrito Roll","",""],["Mexican","Quesadilla","",""],["Mexican","Mexican Rice","",""],["Mexican","Nachos","",""],
+["Snacks","Onion Rings","",""],["Snacks","Dragon Potato","",""],["Snacks","Butter Garlic Fries","",""],["Snacks","Peri Peri Fries","",""],["Snacks","Classic Fries","",""],["Snacks","Manchurian Dry","",""],["Snacks","Tadka Maggi","",""],["Snacks","Classic Maggi","",""],
+["Shakes and coffee","Biscoff Thick Shake","",""],["Shakes and coffee","Nutella Thick Shake","",""],["Shakes and coffee","Oreo Thick Shake","",""],["Shakes and coffee","Margarita Kiwi","",""],["Shakes and coffee","Margarita Strawberry","",""],["Shakes and coffee","Mocha Frappe","",""],["Shakes and coffee","Hazelnut Mocha","",""],["Shakes and coffee","Classic Cold Coffee","",""]];
+let cat="All",jain=false,cur=[];const cats=["All",...new Set(MENU.map(d=>d[0]))];
+$("cf").innerHTML=cats.map(c=>`<button data-c="${c}" aria-pressed="${c==="All"}">${c}</button>`).join("")+`<button class="sw" id="jb" aria-pressed="false">Jain-friendly only</button><button class="sw" id="pm">Pick for me</button>`;
+function menu(){const q=$("q").value.trim().toLowerCase();cur=MENU.filter(d=>(cat==="All"||d[0]===cat)&&(!jain||d[3]===J)&&(!q||(d[1]+" "+d[0]).toLowerCase().includes(q)));
+ $("mg").innerHTML=cur.map((d,i)=>`<div class="dc" id="d${i}"><div><h3>${d[1]}</h3>${d[2]?`<p>${d[2]}</p>`:`<p>${d[0]}</p>`}</div>${d[3]?`<small>${d[3]}</small>`:""}</div>`).join("")||"<p>No dishes match. Try another search.</p>";$("cn").textContent=cur.length+" dishes"}
+$("cf").onclick=e=>{const b=e.target.closest("button");if(!b)return;if(b.dataset.c){cat=b.dataset.c;Q("[data-c]").forEach(x=>x.setAttribute("aria-pressed",x===b))}
+ else if(b.id==="jb"){jain=!jain;b.setAttribute("aria-pressed",jain);b.classList.toggle("on",jain)}
+ else if(b.id==="pm"){const d=MENU[Math.floor(Math.random()*MENU.length)];cat="All";jain=false;$("q").value="";Q("[data-c]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.c==="All"));$("jb").classList.remove("on");menu();$("pk").className="on";$("pk").innerHTML=`<div class="eb">Tonight's pick</div><h3>${d[1]}</h3><p style="margin:.4rem 0 1rem">${d[2]||d[0]}</p><a class="btn f" href="#reserve">Reserve a table</a>`;const i=cur.indexOf(d);Q(".dc").forEach(x=>x.classList.remove("hl"));const el=$("d"+i);el&&el.classList.add("hl");return}
+ $("pk").className="";menu()};$("q").oninput=()=>{$("pk").className="";menu()};
+// branch UI
+$("bm").innerHTML=Object.keys(B).map(k=>`<button data-b="${k}" role="menuitem">${B[k].n}<small></small></button>`).join("");
+$("bp").onclick=e=>{e.stopPropagation();$("bm").classList.toggle("on")};addEventListener("click",()=>$("bm").classList.remove("on"));$("bm").onclick=e=>{const b=e.target.closest("button");if(b){br=b.dataset.b;branch()}};
+$("rb").innerHTML=Object.keys(B).map(k=>`<button data-b="${k}">${B[k].n}</button>`).join("");$("rb").onclick=e=>{const b=e.target.closest("button");if(b){br=b.dataset.b;branch()}};
+function branch(k){const x=B[br],s=status(br);$("bt").textContent=x.n+" · "+(s.o?"Open":"Closed");$("bd").className="dot"+(s.o?"":" c");$("hs").textContent=x.n+": "+s.t;
+ Q("#bm button").forEach(b=>{b.setAttribute("aria-pressed",b.dataset.b===br);b.querySelector("small").textContent=status(b.dataset.b).t});Q("#rb button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.b===br));
+ $("qc").href=$("dc").href="tel:+"+x.tel;$("qcs").textContent=x.d;$("qw").href="https://wa.me/"+x.tel+"?text="+encodeURIComponent("Hello, I'd like to book a table at "+x.n+".");$("qd").href=x.map;
+ $("vcs").innerHTML=Object.keys(B).map(k=>{const y=B[k],t=status(k);return`<div class="vc${k===br?" sel":""}"><h3>${y.n}</h3><div class="stt"><i class="dot${t.o?"":" c"}"></i>${t.t}</div><dl><dt>Address</dt><dd>${y.addr}</dd><dt>Hours</dt><dd>${y.hrs.join("<br>")}</dd><dt>Call</dt><dd><a href="tel:+${y.tel}">${y.d}</a></dd><dt>Ambience</dt><dd>${y.vibe}</dd><dt>Service</dt><dd>${y.svc}</dd><dt>Parking</dt><dd>${y.park}</dd><dt>Families</dt><dd>${y.fam}</dd></dl><div class="row"><a class="btn f" href="tel:+${y.tel}">Call</a><a class="btn" target="_blank" rel="noopener" href="${y.map}">Directions</a><button class="btn" data-copy="${k}">Copy address</button></div></div>`}).join("");
+ if(!k){S.time=null;panel()}}
+$("vcs").onclick=e=>{const b=e.target.closest("[data-copy]");if(b&&navigator.clipboard){navigator.clipboard.writeText(B[b.dataset.copy].addr);b.textContent="Copied"}};
+$("sb").onclick=()=>{const d={title:"Ovens 'N' Platters by Itika Singh",url:location.href};navigator.share?navigator.share(d).catch(()=>{}):navigator.clipboard&&navigator.clipboard.writeText(d.url).then(()=>$("sb").textContent="Link copied")};
+// reserve
+const dstr=o=>{const d=new Date();d.setDate(d.getDate()+o);return d.toISOString().slice(0,10)};
+function panel(){const p=$("pn"),x=B[br];Q("#opt button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===mode));
+ if(mode==="call"){p.innerHTML=`<p>Call ${x.n} and we will find you a table.</p><div class="row"><a class="btn f" href="tel:+${x.tel}">${x.d}</a></div>`;return}
+ const o=x.open(new Date().getDay()),hs=[];for(let h=Math.max(o,12);h<=22;h++)hs.push(h);if(S.time===null||!hs.includes(S.time))S.time=hs.includes(19)?19:hs[0];
+ p.innerHTML=`<form id="f"><label>Name<input id="n" required autocomplete="name"></label>${mode==="mail"?`<label>Phone<input id="ph" type="tel" required autocomplete="tel"></label>`:""}
+ <div class="lb">Date<div class="chips" id="dc2">${["Today","Tomorrow"].map((t,i)=>`<button type="button" data-d="${i}" aria-pressed="${S.date===i}">${t}</button>`).join("")}<button type="button" data-d="2" aria-pressed="${S.date===2}">Pick a date</button></div><input id="dd" type="date" min="${dstr(0)}" style="display:${S.date===2?"block":"none"}"></div>
+ <div class="lb">Time<div class="chips" id="tc">${hs.map(h=>`<button type="button" data-t="${h}" aria-pressed="${S.time===h}">${fh(h)}</button>`).join("")}</div></div>
+ <div class="lb">Guests<div class="stp"><button type="button" id="gm" aria-label="Fewer guests">&minus;</button><b id="gv">${S.g}</b><button type="button" id="gp" aria-label="More guests">+</button></div></div>
+ <label>Notes (optional)<textarea id="no" rows="2" placeholder="Jain food, birthday, high chair"></textarea></label><button class="btn f" type="submit">${mode==="wa"?"Send on WhatsApp":"Send by email"}</button><p id="fm" role="status"></p></form>`;
+ $("dc2").onclick=e=>{const b=e.target.closest("button");if(!b)return;S.date=+b.dataset.d;Q("#dc2 button").forEach(c=>c.setAttribute("aria-pressed",c===b));$("dd").style.display=S.date===2?"block":"none"};
+ $("tc").onclick=e=>{const b=e.target.closest("button");if(!b)return;S.time=+b.dataset.t;Q("#tc button").forEach(c=>c.setAttribute("aria-pressed",c===b))};
+ $("gm").onclick=()=>{S.g=Math.max(1,S.g-1);$("gv").textContent=S.g};$("gp").onclick=()=>{S.g=Math.min(20,S.g+1);$("gv").textContent=S.g};
+ $("f").onsubmit=e=>{e.preventDefault();const v=i=>$(i)?$(i).value:"",dt=S.date===2?v("dd"):dstr(S.date);if(!dt){$("fm").textContent="Please pick a date.";return}
+  const body=`Table request at Ovens 'N' Platters, ${x.n}\nName: ${v("n")}${mode==="mail"?"\nPhone: "+v("ph"):""}\nDate: ${dt}\nTime: ${fh(S.time)}\nGuests: ${S.g}\nNotes: ${v("no")||"None"}`;
+  $("fm").textContent=mode==="wa"?"Opening WhatsApp. Press send to confirm.":"Opening your email app. Press send to confirm.";
+  if(mode==="wa")open("https://wa.me/"+x.tel+"?text="+encodeURIComponent(body),"_blank","noopener");else location.href="mailto:"+EMAIL+"?subject="+encodeURIComponent("Table request: "+v("n")+" ("+x.n+")")+"&body="+encodeURIComponent(body)}}
+$("opt").onclick=e=>{const b=e.target.closest("button");if(b){mode=b.dataset.m;panel()}};
+// reveal, dock highlight, init
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.1});Q(".rv").forEach(e=>io.observe(e));
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)Q("#dock [data-s]").forEach(a=>a.classList.toggle("on",a.dataset.s===e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});["menu","reels","visit","reserve"].forEach(i=>so.observe($(i)));
+fill(document);menu();branch();setInterval(()=>branch(1),60000);
+</script></body></html>
